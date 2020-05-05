@@ -75,8 +75,10 @@ gulp.task('watch', function () {
     gulp.watch('app/img/**/*', gulp.series('img'));
 });
 
-gulp.task('deploy', function () {
-    return gulp.src('dist/**/*').pipe(ghPages())
-});
+function pushToGitHubPages() {
+    return gulp.src('dist/**/*').pipe(ghPages());
+}
+
+gulp.task('deploy', gulp.series('build', pushToGitHubPages));
 
 gulp.task('default', gulp.parallel('connect', 'watch', 'build'));
