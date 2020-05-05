@@ -12,5 +12,5 @@
 
 server will be running at http://localhost:8080/
 
-##Preview
-https://oksanayakupova.github.io/tech-task/
+## Preview
+https://oksanayakupova.github.io/tech-task-tattoo/
