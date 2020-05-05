@@ -1,0 +1,165 @@
+@media screen and (max-width: 1360px) {
+  .artists-section {
+    margin: 0 $medium-margin-size 130px;
+  }
+
+  .work-standards {
+    padding: 150px $medium-margin-size;
+  }
+
+  .featured-work {
+    margin: 80px $medium-margin-size 0;
+  }
+
+  .about-us-section {
+    padding: 80px $medium-margin-size;
+  }
+
+  .instagram-works {
+    margin: 0 $medium-margin-size 80px;
+  }
+
+  .address-section {
+    margin: 0 $medium-margin-size 80px $medium-margin-size;
+  }
+
+  .copywrite-section {
+    margin: 20px $medium-margin-size;
+  }
+
+  .navigation {
+    margin: 36px 100px 10px;
+  }
+
+}
+
+@media screen and (max-width: 1252px) {
+  .artists-section__artists-list {
+    margin: 0 auto;
+    width: 65%;
+  }
+
+  .featured-work__pictures-section {
+    justify-content: center;
+  }
+
+  .featured-work__gallery-area {
+    margin: 10px 0;
+  }
+
+  .about-us-section__img {
+    width: 50%;
+    margin-top: -87px;
+  }
+}
+
+@media screen and (max-width: 1221px) {
+  .address-section__part {
+    padding: 20px 20px;
+  }
+
+  .work-standards__section {
+    width: 300px;
+  }
+
+  .work-standards__title {
+    font-size: 1em;
+  }
+
+  .copywrite-section__info {
+    font-size: 0.7em;
+  }
+
+}
+
+@media screen and (max-width: 1070px) {
+  .main__title {
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .about-us-section__img {
+    display: none;
+  }
+
+  .address-section img {
+    display: none;
+  }
+
+  .artists-section__artists-list {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .main__title {
+    font-size: 2em;
+  }
+
+  .artists-section {
+    margin: 0 $small-margin-size 130px;
+  }
+
+  .work-standards {
+    padding: 150px $small-margin-size;
+  }
+
+  .featured-work {
+    margin: 80px $small-margin-size 0;
+  }
+
+  .about-us-section {
+    padding: 80px $small-margin-size;
+  }
+
+  .instagram-works {
+    margin: 0 $small-margin-size 80px;
+  }
+
+  .address-section {
+    margin: 0 $small-margin-size 80px $small-margin-size;
+  }
+
+  .copywrite-section {
+    margin: 20px $small-margin-size;
+  }
+
+  .navigation {
+    margin: 36px 20px 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navigation {
+    display: none;
+  }
+
+  .work-standards__section img {
+    display: none;
+  }
+
+  .social-section {
+    margin: 36px 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .artists-section__artists-list {
+    display: block;
+    width: 50%;
+  }
+
+  .work-standards {
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .contact-form__buttons button:first-child {
+    display: none;
+  }
+
+  .contact-form__buttons button:last-child {
+    display: none;
+  }
+}

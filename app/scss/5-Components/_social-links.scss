@@ -1,0 +1,50 @@
+.social {
+  color: $hover-color;
+}
+
+.social-icon {
+  cursor: pointer;
+  color: $primary-color;
+  font-size: 1.25em;
+  transition-duration: 0.25s;
+
+  &:first-child {
+    margin-right: 26px;
+  }
+
+  &:hover {
+    color: $hover-color;
+    transition-duration: 0.25s;
+  }
+}
+
+.social-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 153px;
+
+  &__achievement {
+    margin-left: -10px;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__link {
+    cursor: pointer;
+    color: $primary-color;
+    font-size: 1.5em;
+    transition-duration: 0.25s;
+
+    &:first-child {
+      margin: 10px 0 20px 0;
+    }
+
+    &:hover {
+      color: $hover-color;
+      transition-duration: 0.25s;
+    }
+  }
+}
