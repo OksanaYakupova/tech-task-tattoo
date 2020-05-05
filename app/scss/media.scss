@@ -163,3 +163,57 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .main {
+    margin: 20px 0 0;
+  }
+
+  .contact-form {
+    width: 60%;
+  }
+
+  .logo {
+    width: 225px;
+  }
+
+  .main__title {
+    font-size: 1em;
+  }
+
+  .about-us-section {
+    padding: 10px 20px;
+  }
+
+  //.artists-section {
+  //  margin: 0 0 130px;
+  //}
+  //
+  //.work-standards {
+  //  padding: 50px 0;
+  //}
+  //
+  //.featured-work {
+  //  margin: 80px 0 0;
+  //}
+  //
+  //.about-us-section {
+  //  padding: 80px 0;
+  //}
+  //
+  //.instagram-works {
+  //  margin: 0 0 80px;
+  //}
+  //
+  //.address-section {
+  //  margin: 0 0 80px 0;
+  //}
+  //
+  //.copywrite-section {
+  //  margin: 20px 0;
+  //}
+
+  .first-screen-section__gradient-mask {
+    display: none;
+  }
+}
