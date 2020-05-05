@@ -5,7 +5,8 @@ const gulp = require('gulp'),
     csso = require('gulp-csso'),
     htmlmin = require('gulp-htmlmin'),
     autoprefixer = require('gulp-autoprefixer'),
-    uglify = require('gulp-uglify');
+    uglify = require('gulp-uglify'),
+    ghPages = require('gulp-gh-pages');
 
 gulp.task('connect', function () {
     return connect.server({
@@ -72,6 +73,10 @@ gulp.task('watch', function () {
     gulp.watch('app/index.html', gulp.series('html'));
     gulp.watch('app/scripts/**/*.js', gulp.series('scripts'));
     gulp.watch('app/img/**/*', gulp.series('img'));
+});
+
+gulp.task('deploy', function () {
+    return gulp.src('dist/**/*').pipe(ghPages())
 });
 
 gulp.task('default', gulp.parallel('connect', 'watch', 'build'));
